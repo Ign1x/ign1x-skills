@@ -4,7 +4,7 @@
 
 ## 安装
 
-将本目录 `thu-homework` 放入 `${CODEX_HOME:-$HOME/.codex}/skills/`，或保留源码位置并建立链接（仓库克隆步骤见[仓库首页](../README.md)）：
+将本目录 `thu-homework` 放入 `${CODEX_HOME:-$HOME/.codex}/skills/`，或保留源码位置并建立链接：
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
@@ -53,3 +53,7 @@ python -m unittest discover -s tests -v
 如果安装了 Codex 的 `skill-creator`，还可以运行其 `scripts/quick_validate.py` 检查本目录。
 
 本仓库只存技能、脚本和离线测试；真实资料、课程附件、作业成品和回执放在仓库外。`.gitignore` 提供额外排除规则，发布前仍应核对 `git diff --cached --stat` 与实际暂存文件。创建技能本身不会登录账号或提交作业。
+
+## 许可证
+
+Copyright 2026 Ign1x。本技能采用 [Apache License 2.0](LICENSE)。
